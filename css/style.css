@@ -127,3 +127,11 @@ input:focus {
     border-radius: 50%;
     margin-left: 12px;
 }
+/* UC5 */
+select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font: normal normal normal 16px Roboto;
+    color: #42515f;
+  }
