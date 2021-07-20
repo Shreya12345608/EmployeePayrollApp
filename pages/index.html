@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap">
     <title>Employee Payroll Form</title>
     <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" href="../js/EmployeePayrollApp.js"> -->
 </head>
 <body>
     <!-- UC1 : Add logo -->
@@ -75,10 +76,10 @@
         </div>
     </div>
     <div class="row-content">
-        <label class="label text" for="salary">Choose your Salary </label>
-        <input class="input" type="range" id="salary" name="salary" min="300000" max="500000" step="100"
-            value="400000">
-        <output class="salary-output text" for="salary">400000</output>
+        <label class="label text" for="salary">Choose Your Salary:</label>
+        <input class="input" type="range" name="salary" id="salary" min="300000" max="500000" step="100"
+            value="400000" style="width:62%">
+        <output class="salary-output" for="salary">400000</output>
     </div>
     <div class="row-content">
         <label class="label text" for="startDate">Start Date</label>
@@ -149,7 +150,9 @@
              <button type="reset" class="resetButton button">Reset</button>
          </div>
     </form>
+    <script src="../js/EmployeePayrollApp.js">  </script>
 </div>
+
 </body>
 </html>
 
