@@ -168,7 +168,22 @@ select {
     text-decoration: none;
     text-align: center;
   }
-  
+  .formerror {
+    color: red;
+}
+error-output {
+  margin-left: 10px;
+  font-size: 12px;
+  font-style: italic;
+  color: red;
+}
+
+date-error {
+  margin-left: 10px;
+  font-size: 12px;
+  font-style: italic;
+  color: red;
+}
 
    /* UC7 */
    @media only screen and (max-width: 960px) {
